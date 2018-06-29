@@ -1,0 +1,48 @@
+.logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+  margin-bottom: -13px;
+  margin-left: -20px;
+  -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.fullscreen{
+  z-index: -1;
+}
+
+.slider .slides h3{
+  color: dodgerblue;
+}
+h5>span{
+  color: dodgerblue;
+  font-size: 30px;
+  font-weight: 600;
+}
+.slider .slides li div img {
+  width: 150px !important;
+}
+.slider .slides li>img {
+  margin-top: 20px;
+}
+#rokect{
+  width: 250px !important;
+}
+
+.modal h1{
+  margin-bottom: -10px;
+}
+
+#login{
+  height: 70%;
+}
+
+#registro{
+  max-height: none !important;
+  height: 83%;
+}
